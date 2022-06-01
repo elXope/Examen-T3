@@ -1,0 +1,55 @@
+# jrcc 1 - DblByt (2.5 pnts).
+
+Cr n fchr "DblByt.jv"
+
+Dbs crr n prgrm q dplq byt  byt n fchr cy nmbr db psrs pr l lín d cmnds. l fchr d sld db ñdr l fnl dl nmbr l xtnsón ".dbl". l fchr rgnl db prmncr nltrd.
+
+* Hz cmmt.
+
+# jrcc 2 - FltrVcls (2.5 pnts)
+
+Cr n fchr "FltrVcls.jv"
+
+Dbs crr n prgrm q lmn ls vcls sn cntr d n fchr. l fchr d sld db ñdr l xtnsón ".fltrd" l nmbr dl fchr rgnl.
+
+* Hz cmmt.
+
+# jrcc 3 - Prsn (2.5 pnts)
+
+Cr n cls "Prsn" cn ls sgnts trbts:
+
+* Nmbr
+* pllds
+* dd
+* DN
+* Dmcl
+
+Ls trbts n dbn sr vsbls dsd fr d l cls.
+
+Cr l cnstrctr dcd.
+
+Cr ls gttrs y sttrs pr tds ls trbts.
+
+Cr l métd dcd pr q Jv pd mnjr n bjt d l cls Prsn cm n cdn d txt.
+
+Cr n métd "srlzr" q scrb l bjt srlzd n n fchr cy nmbr db sr l rsltd d nr nmbr y pllds sn spcs. l fchr tmbén tn q tnr n xtnsón ".prsn".
+
+Cr n cls TstPrsn.jv n l q s cnstryn ds bjts y s llm l métd "srlzr" d ls msms.
+
+* Hz cmmt.
+
+# jrcc 4 - PrsnXML (2.5 pnts)
+
+Cr n ntrfz "GnrblXML" cn l sgnt métd:
+
+> pblc vd gnrrXML()
+
+Cr n cls PrsnXML q hrd d Prsn (dl jrcc ntrr). st cls db mplmntr l ntrfz "GnrblXML"
+
+l métd mplmntd db prmtr gnrr n n fchr l XML crrspndnt  tds ls cmps dl bjt PrsnXML. l nmbr dl fchr gnrd db sr l rsltd d cnctnr l nmbr y l dd sn spcs. L xtnsón dl fchr db sr ".xml".
+
+N hy lmtcón n ls clss q dbs sr pr gnrr l XML.
+
+Cr l cls TstPrsnXML y prb cn n bjt.
+
+* Hz cmmt.

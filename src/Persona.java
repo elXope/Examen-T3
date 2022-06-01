@@ -69,8 +69,7 @@ public class Persona implements Serializable {
             escritor.writeObject(this);
             escritor.close();
         } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println("No se ha podido crear o escribir el fichero.");
+            System.out.println("No se ha podido crear o escribir en el fichero (tal vez por falta de espacio).");
         }
     }
 }

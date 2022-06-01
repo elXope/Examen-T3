@@ -1,0 +1,110 @@
+##  EEjjeerrcciicciioo  11  --  DDoobblleeBByyttee  ((22..55  ppuunnttooss))..
+
+
+
+CCrreeaa  uunn  ffiicchheerroo  ""DDoobblleeBByyttee..jjaavvaa""
+
+
+
+DDeebbeess  ccrreeaarr  uunn  pprrooggrraammaa  qquuee  dduupplliiqquuee  bbyyttee  aa  bbyyttee  uunn  ffiicchheerroo  ccuuyyoo  nnoommbbrree  ddeebbee  ppaassaarrssee  ppoorr  llaa  ll√√≠≠nneeaa  ddee  ccoommaannddooss..  EEll  ffiicchheerroo  ddee  ssaalliiddaa  ddeebbee  aa√√±±aaddiirr  aall  ffiinnaall  ddeell  nnoommbbrree  llaa  eexxtteennssii√√≥≥nn  ""..ddoobbllee""..  EEll  ffiicchheerroo  oorriiggiinnaall  ddeebbee  ppeerrmmaanneecceerr  iinnaalltteerraaddoo..
+
+
+
+**  HHaazz  ccoommmmiitt..
+
+
+
+##  EEjjeerrcciicciioo  22  --  FFiillttrrooVVooccaalleess  ((22..55  ppuunnttooss))
+
+
+
+CCrreeaa  uunn  ffiicchheerroo  ""FFiillttrrooVVooccaalleess..jjaavvaa""
+
+
+
+DDeebbeess  ccrreeaarr  uunn  pprrooggrraammaa  qquuee  eelliimmiinnee  llaass  vvooccaalleess  ssiinn  aacceennttuuaarr  ddee  uunn  ffiicchheerroo..  EEll  ffiicchheerroo  ddee  ssaalliiddaa  ddeebbee  aa√√±±aaddiirr  llaa  eexxtteennssii√√≥≥nn  ""..ffiillttrraaddoo""  aall  nnoommbbrree  ddeell  ffiicchheerroo  oorriiggiinnaall..
+
+
+
+**  HHaazz  ccoommmmiitt..
+
+
+
+##  EEjjeerrcciicciioo  33  --  PPeerrssoonnaa  ((22..55  ppuunnttooss))
+
+
+
+CCrreeaa  uunnaa  ccllaassee  ""PPeerrssoonnaa""  ccoonn  llooss  ssiigguuiieenntteess  aattrriibbuuttooss::
+
+
+
+**  NNoommbbrree
+
+**  AAppeelllliiddooss
+
+**  EEddaadd
+
+**  DDNNII
+
+**  DDoommiicciilliioo
+
+
+
+LLooss  aattrriibbuuttooss  nnoo  ddeebbeenn  sseerr  vviissiibblleess  ddeessddee  ffuueerraa  ddee  llaa  ccllaassee..
+
+
+
+CCrreeaa  eell  ccoonnssttrruuccttoorr  aaddeeccuuaaddoo..
+
+
+
+CCrreeaa  llooss  ggeetttteerrss  yy  sseetttteerrss  ppaarraa  ttooddooss  llooss  aattrriibbuuttooss..
+
+
+
+CCrreeaa  eell  mm√√©©ttooddoo  aaddeeccuuaaddoo  ppaarraa  qquuee  JJaavvaa  ppuueeddaa  mmaanneejjaarr  uunn  oobbjjeettoo  ddee  llaa  ccllaassee  PPeerrssoonnaa  ccoommoo  uunnaa  ccaaddeennaa  ddee  tteexxttoo..
+
+
+
+CCrreeaa  uunn  mm√√©©ttooddoo  ""sseerriiaalliizzaarr""  qquuee  eessccrriibbaa  eell  oobbjjeettoo  sseerriiaalliizzaaddoo  eenn  uunn  ffiicchheerroo  ccuuyyoo  nnoommbbrree  ddeebbee  sseerr  eell  rreessuullttaaddoo  ddee  uunniirr  nnoommbbrree  yy  aappeelllliiddooss  ssiinn  eessppaacciiooss..  EEll  ffiicchheerroo  ttaammbbii√√©©nn  ttiieennee  qquuee  tteenneerr  uunnaa  eexxtteennssii√√≥≥nn  ""..ppeerrssoonnaa""..
+
+
+
+CCrreeaa  uunnaa  ccllaassee  TTeessttPPeerrssoonnaa..jjaavvaa  eenn  llaa  qquuee  ssee  ccoonnssttrruuyyaann  ddooss  oobbjjeettooss  yy  ssee  llllaammee  aall  mm√√©©ttooddoo  ""sseerriiaalliizzaarr""  ddee  llooss  mmiissmmooss..
+
+
+
+**  HHaazz  ccoommmmiitt..
+
+
+
+##  EEjjeerrcciicciioo  44  --  PPeerrssoonnaaXXMMLL  ((22..55  ppuunnttooss))
+
+
+
+CCrreeaa  uunnaa  iinntteerrffaazz  ""GGeenneerraabblleeXXMMLL""  ccoonn  eell  ssiigguuiieennttee  mm√√©©ttooddoo::
+
+
+
+>>  ppuubblliicc  vvooiidd  ggeenneerraarrXXMMLL(())
+
+
+
+CCrreeaa  uunnaa  ccllaassee  PPeerrssoonnaaXXMMLL  qquuee  hheerreeddee  ddee  PPeerrssoonnaa  ((ddeell  eejjeerrcciicciioo  aanntteerriioorr))..  EEssttaa  ccllaassee  ddeebbee  iimmpplleemmeennttaarr  llaa  iinntteerrffaazz  ""GGeenneerraabblleeXXMMLL""
+
+
+
+EEll  mm√√©©ttooddoo  iimmpplleemmeennttaaddoo  ddeebbee  ppeerrmmiittiirr  ggeenneerraarr  eenn  uunn  ffiicchheerroo  eell  XXMMLL  ccoorrrreessppoonnddiieennttee  aa  ttooddooss  llooss  ccaammppooss  ddeell  oobbjjeettoo  PPeerrssoonnaaXXMMLL..  EEll  nnoommbbrree  ddeell  ffiicchheerroo  ggeenneerraaddoo  ddeebbee  sseerr  eell  rreessuullttaaddoo  ddee  ccoonnccaatteennaarr  eell  nnoommbbrree  yy  llaa  eeddaadd  ssiinn  eessppaacciiooss..  LLaa  eexxtteennssii√√≥≥nn  ddeell  ffiicchheerroo  ddeebbee  sseerr  ""..xxmmll""..
+
+
+
+NNoo  hhaayy  lliimmiittaaccii√√≥≥nn  eenn  llaass  ccllaasseess  qquuee  ddeebbeess  uussaarr  ppaarraa  ggeenneerraarr  eell  XXMMLL..
+
+
+
+CCrreeaa  llaa  ccllaassee  TTeessttPPeerrssoonnaaXXMMLL  yy  pprruueebbaa  ccoonn  uunn  oobbjjeettoo..
+
+
+
+**  HHaazz  ccoommmmiitt..
+
