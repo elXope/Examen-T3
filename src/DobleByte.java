@@ -2,11 +2,12 @@ import java.io.*;
 
 public class DobleByte {
     public static void main(String[] args) {
-        String nombreFichero = "./JuanPerezPerez.persona";
+        String nombreFichero = "./Enunciado.md"; // No he sabut posar-ho des del terminal
         try {
             InputStream inputStream = new FileInputStream(nombreFichero);
 
-            File ficheroSalida = new File(nombreFichero + ".double");
+            //Asumo que el fichero de entrada tiene extension
+            File ficheroSalida = new File(nombreSinExtension(nombreFichero) + ".double");
             ficheroSalida.createNewFile();
             OutputStream outputStream = new FileOutputStream(ficheroSalida);
 
@@ -24,5 +25,18 @@ public class DobleByte {
         } catch (IOException e) {
             System.out.println("Ha habido un problema con la creacion o escritura del fichero.");
         }
+    }
+    
+    public static String nombreSinExtension(String nombre) {
+        String out = "";
+        boolean punto = false;
+        for (int i = nombre.length() - 1; i >= 0; i--) {
+            if (!punto && nombre.charAt(i) == '.') {
+                punto = true;
+            } else if (punto) {
+                out = nombre.charAt(i) + out;
+            }
+        }
+        return out;
     }
 }

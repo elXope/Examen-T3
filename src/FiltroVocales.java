@@ -8,49 +8,37 @@ public class FiltroVocales {
         try {
             lector = new BufferedReader(new FileReader(origen));
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.out.println("No se ha encontrado el fichero.");
+            return;
         }
 
-        //String destinoNombre = nombreDestino(origenNombre);
-        File destino = new File(origenNombre + ".filtrado");
+        // Asumo que el fichero de entrada tiene extension
+        File destino = new File(DobleByte.nombreSinExtension(origenNombre) + ".filtrado");
         try {
             destino.createNewFile();
         } catch (IOException e) {
-            e.printStackTrace();
-        }
-        BufferedWriter escritor = null;
-        try {
-             escritor = new BufferedWriter(new FileWriter(destino));
-        } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("No se ha podido crear el nuevo fichero.");
+            return;
         }
 
+        BufferedWriter escritor = null;
         String linia;
         try {
+            escritor = new BufferedWriter(new FileWriter(destino));
             while((linia = lector.readLine()) != null) {
                 escritor.write(eliminarVocales(linia));
                 escritor.write("\n");
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("No se ha encontrado el fichero de destino o no hay espacio.");
         }
 
         try {
             lector.close();
             escritor.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Problemas en la escritura del fichero.");
         }
-    }
-
-    public static String nombreDestino(String origenNombre) {
-        String[] nDestino = origenNombre.split("\\.");
-        nDestino[nDestino.length - 1] = "filtrado";
-        String out = "";
-        for (String parte : nDestino) {
-            out += parte;
-        }
-        return out;
     }
 
     public static String eliminarVocales(String linia) {
